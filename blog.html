@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <title>Blog!</title>
+  </head>
+  <body>
+
+
+    <div class="modal fade" id="Download" tabindex="-1" aria-labelledby="DownloadLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DownloadLabel">Register to Download!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label ="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <!-- FullName input -->
+              <div class=" fullname2  form-outline my-3 ">
+                <input  type="text" id="" class="form-control" placeholder="Full Name"/> 
+              </div>
+    
+               <!-- Email address input -->
+               <div class=" email  form-outline my-3 ">
+                <input  type="text" id="" class="form-control" placeholder="Email Address"/> 
+              </div>
+              
+              <!-- Phone Number input -->
+              <div class=" phone form-outline my-2">
+              <input type="Number" id="" class="form-control" placeholder="Phone Number"/>
+              </div>
+             
+              <!-- Password input -->
+              <div class=" password2 form-outline my-3">
+              <input type="password" id="" class="form-control" placeholder="Password"/>
+              </div>
+                        <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="form1Example3"
+                    checked
+                  />
+                  <label class="form-check-label" for="form1Example3"> Yes, I want to get the most out of Vaccineapp by receiving emails with exclusive deals, personal recommendations and learning tips. </label>
+                </div>
+              </div>
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-danger btn-block my-3 ">Download</button>
+              <p class="my-3 text-center" >By downloading up, you agree to our Terms of Use and Privacy Policy</p>
+              <p class="or text-center my-3">Or</p>
+              <button type="submit" class="btn btn-primary btn-block my-3">Download with Facebook</button>
+              <button type="submit" class="btn btn-danger btn-block mt-3"> Download with Google</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="#">Vaccineapp</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active Home text-success"
+                    aria-current="page"
+                    href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index2.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link Home text-success" href="./blog.html"> <b>Blog</a>
+                </li>
+              </ul>
+              <form>
+                <button type="button" class="btn download" data-bs-toggle="modal" data-bs-target="#Download">
+                  Download
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container-fluid text-white p-5 features">
+          <h1 class="d-inline">Fitness</h1>
+          <i class="fas fa-spa text-success"></i>
+              <div class="row">
+
+                <!-- The first column starts here -->
+                  <div class="col-md-8">
+                    <h3 class="my-3">1. ACE Insights Blog</h3>
+                     <a class="text-success nav-link" href="https://www.acefitness.org/education-and-resources/professional/expert-articles/">https://www.acefitness.org/education-and-resources/professional/expert-articles/</a>
+                     <p class="text-break">The American Council on Exercise’s blog has fitness articles on a variety of topics such as yoga, strength training, and exercises for beginners. Articles are backed by guidelines and recommendations from the American Council on Exercise.</p>
+                     
+                    <h3 class="my-3">2. The Art of Healthy Living</h3>
+                     <a class="text-success nav-link" href="https://artofhealthyliving.com/">Artofhealthyliving.com</a>
+                     <p class="text-break">The Art of Healthy Living offers fitness articles related to subjects such as exercise supplements and high-intensity interval training. It also covers food and nutrition topics and general health and wellbeing trends.</p>
+                     
+                    <h3 class="my-3">3. Nerd Fitness</h3>
+                     <a class="text-success nav-link" href="https://www.nerdfitness.com/blog/">Nerdfitness.com/blog</a>
+                     <p class="text-break">This blog serves up health and fitness advice from a self-described “full-time team of 25 supportive nerds (and a massive worldwide community).” Besides a fun and engaging blog, Nerd Fitness offers an online coaching program, at-home workouts, and free resources.</p>
+                     
+                    <h3 class="my-3">4. MyFitnessPal Blog</h3>
+                     <a class="text-success nav-link" href="https://blog.myfitnesspal.com/">Myfitnesspal.com</a>
+                     <p class="text-break">This is the blog of nutrition tracking app MyFitnessPal. Get healthy recipes, nutrition advice, weight loss tips, fitness inspiration, and more.</p>
+                     
+                    <h3 class="my-3">5. Shapeg</h3>
+                     <a class="text-success nav-link" href="https://www.shape.com/">Shape.com</a>
+                     <p class="text-break">The website for fitness magazine Shape has tons of free articles, including step-by-step workouts, nutrition advice, and mental health insights. There are also weight loss tips and plans and videos.</p>
+                     
+                    <h3 class="my-3">6. Well + Good</h3>
+                     <a class="text-success nav-link" href="https://www.wellandgood.com/">Wellandgood.com</a>
+                     <p class="text-break">Well + Good is a wellness blog with articles on fitness, nutrition, beauty, and more. The journalism-based fitness site features interviews with fitness experts, practical fitness tips, and videos to walk blog readers through workouts.</p>
+          
+                <h1 class="d-inline">Nutrition</h1>     
+                <i class="fab fa-nutritionix text-success"></i>  
+          
+                        <h3 class="my-3">7. Bites of Wellness</h3>
+                        <a class="text-success nav-link" href="https://bitesofwellness.com/">Bitesofwellness.com/</a>
+                        <p class="text-break"></p> 
+
+                        <h3 class="my-3">8. Eating Bird Food</h3>
+                        <a class="text-success nav-link" href="https://www.eatingbirdfood.com/">Eatingbirdfood.com</a>
+                        <p class="text-break">Holistic nutritionist Brittany Mullins runs this site and shares healthy recipe creations focused on whole foods, plus articles on wellness and workouts.</p> 
+
+                        <h3 class="my-3">9. Health Magazine</h3>
+                        <a class="text-success nav-link" href="https://www.health.com/nutrition">Health.com/nutrition</a>
+                        <p class="text-break"></p> 
+
+                        <h3 class="my-3">10. Healthline Nutrition</h3>
+                        <a class="text-success nav-link" href="https://www.healthline.com/nutrition">Healthline.com/nutrition</a>
+                        <p class="text-break">Healthline’s nutrition blog features daily research-based articles on nutrition and weight loss. Learn about foods you should eat more of, foods to avoid, and the scientific reasoning behind everything the site teaches you.</p>  
+
+                        <h3 class="my-3">11. Nutrition Stripped</h3>
+                        <a class="text-success nav-link" href="https://nutritionstripped.com/articles/">Nutritionstripped.com/articles/</a>
+                        <p class="text-break">Nutrition Stripped is a website founded by registered dietitian McKel Kooienga. She shares articles on trending nutrition topics, using science to teach readers about popular food subjects and diet habits.</p>  
+
+                        <h3 class="my-3">12. Oh She Glows</h3>
+                        <a class="text-success nav-link" href="https://ohsheglows.com/">Shsheglows.com/</a>
+                        <p class="text-break">The Oh She Glows blog features vegan recipes, most of which are also free of gluten, soy, and processed food. Recipes are accompanied by founder and cookbook author Angela Liddon’s inspirations and insights.</p>  
+
+                        <h3 class="my-3">13. Time Nutrition</h3>
+                        <a class="text-success nav-link" href="https://time.com/tag/nutrition/">Time.com/tag/nutrition/</a>
+                        <p class="text-break">Time magazine’s nutrition site has journalism-based articles featuring interviews with nutrition experts on trending nutrition topics. Visit the site for food news and research.</p>  
+                    
+                        <h1 class="d-inline">Mental Health</h1>     
+                        <i class="fas fa-head-side-mask text-success"></i>  
+                  
+                                <h3 class="my-3">14. Calm</h3>
+                                <a class="text-success nav-link" href="https://blog.calm.com/">Blog.calm.com/</a>
+                                <p class="text-break">The Calm blog comes from the relaxation app of the same name. Find news regarding meditation research, plus tips on how to cultivate mindfulness and practice meditation.</p> 
+        
+                                <h3 class="my-3">15. DailyOM</h3>
+                                <a class="text-success nav-link" href="https://www.dailyom.com/cgi-bin/display/inspirations.cgi">Dailyom.com/cgi-bin/display/inspirations.cgi</a>
+                                <p class="text-break">The Inspirations section on the DailyOM website is full of wisdom designed to boost mental and spiritual health. Bite-size articles provide daily encouragement and thought-provoking passages to embrace mindfulness and a deeper sense of interconnectedness.</p> 
+        
+                                <h3 class="my-3">16. HealthyPlace</h3>
+                                <a class="text-success nav-link" href="https://www.healthyplace.com/blogs">healthyplace.com/blogs</a>
+                                <p class="text-break">The HealthyPlace site has dozens of mental health blogs dedicated to specific mental health issues. These include ADHD, bipolar disorder, binge eating, post-traumatic stress disorder, and depression.</p> 
+        
+                                <h3 class="my-3">17. Mellowed</h3>
+                                <a class="text-success nav-link" href="V">Mellowed.com/category/health-wellness/</a>
+                                <p class="text-break">Mellowed is a website designed to help users decrease stress in their lives. The site’s Health & Wellness section features articles on topics ranging from improving sleep to boosting brain health to naturally lowering blood pressure.</p>  
+        
+                                <h3 class="my-3">18. Mindbodygreen</h3>
+                                <a class="text-success nav-link" href="www.mindbodygreen.com">Mindbodygreen.com</a>
+                                <p class="text-break">This website’s tagline is “Where soul meets science,” which makes sense because the articles featured are wellness-inspired and backed by research. Choose from categories like mindfulness, health, food, movement, beauty, and more.</p>  
+        
+                                <h3 class="my-3">19. Sleep Junkies</h3>
+                                <a class="text-success nav-link" href="https://sleepjunkies.com/">Sleepjunkies.com/</a>
+                                <p class="text-break">High-quality sleep is essential to relieve stress and improve mental health. Sleep Junkies teaches users how to improve sleep, with research-backed articles and insights on how other wellness issues such as anxiety interact with sleep.</p>  
+        
+                                <h3 class="my-3">20. Student Minds</h3>
+                                <a class="text-success nav-link" href="https://www.studentmindsblog.co.uk/">Studentmindsblog.co.uk/</a>
+                                <p class="text-break">Student Minds is a blog for and written by university students covering a variety of mental health issues, including eating disorders, depression, and substance use disorder. The blog has practical tips and unique voices throughout.</p>  
+                    </div>
+
+                        <!-- The second column starts here -->
+                     <div class="col-md-4">
+                        <nav class="navbar navbar-light">
+                            <div class="container-fluid">
+                              <form class="d-flex input-group w-auto">
+                                <input
+                                  type="search"
+                                  class="form-control"
+                                  placeholder="Search Blog"
+                                  aria-label="Search"
+                                />
+                                <button
+                                  class="btn btn-outline-success"
+                                  type="button"
+                                  data-mdb-ripple-color="dark"
+                                >
+                                  Search
+                                </button>
+                              </form>
+                            </div>
+                          </nav>
+                         <h3 class="mt-4"> Categories</h3>
+                         <p class="">
+                             <li class="nav-link text-success">Latest</li>
+                             <li class="nav-link text-success">Alumni</li>
+                             <li class="nav-link text-success">Health science</li>
+                             <li class="nav-link text-success">Physical Health</li>
+                             <li class="nav-link text-success">Education</li>
+                             <li class="nav-link text-success">Fire science</li> 
+                         </p>
+                         <div class="card mb-3 card-img" style="width: 18rem">
+                            <img
+                              src="./Image/gelato.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/national-cancer-institute-E3cUMNBcBCc-unsplash.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/davide-cantelli-jpkfc5_d-DI-unsplash.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/chef-preparing-vegetable-dish-on-tree-slab-1267320.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/avocado-cooked-delicious-dish-262959.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/avocado-cooked-delicious-dish-262959.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/dan-gold-4_jhDO54BYg-unsplash.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/lukas-blazek-f-TWhXOrLiU-unsplash (1).png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card card-img mb-5" style="width: 18rem">
+                            <img
+                              src="./Image/plate-of-barbeques-on-dining-table-2689419.png"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card's content.
+                              </p>
+                            </div>
+                          </div>
+                     </div>
+                    </div>
+                  </div>
+              </div>
+      </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
