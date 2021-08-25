@@ -18,7 +18,7 @@ The project is the first project I design from scratch and it took me two weeks 
 ## Built with
 - HTML5 
 - CSS 
-- Boostrap %
+- Boostrap 5
 - CSS Grid
 -Javascript
  
