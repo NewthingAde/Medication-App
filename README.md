@@ -2,7 +2,7 @@
 
 
 ## Overview
- I Design this website from scratch using HTML, CSS, Boostrap and Javascript. This is my first project i designed.
+ I Design this website from scratch using HTML, CSS, Bootstrap and Javascript. This is my first project i designed.
  
 ## The Project Challenge
 Users should be able to:
@@ -13,19 +13,23 @@ Users should be able to:
 - Visit blogs
  
 ## My process
-The project is the first project I design from scratch and it took me two weeks to complete. I did the project to understand the HTML, CSS and Javascript. It has helped me improve my basic understanding of javascript, HtML, and CSS. I also understand Boostrap( CSS framework better). This motivate me to build other challenging projects.
+The project is the first project I design from scratch and it took me two weeks to complete. I did the project to understand the HTML, CSS and Javascript. It has helped me improve my basic understanding of javascript, HtML, and CSS. I also understand Bootstrap( CSS framework better). This motivate me to build other challenging projects.
 
 ## Built with
 - HTML5 
 - CSS 
-- Boostrap 5
+- Bootstrap 5
 - CSS Grid
--Javascript
+- Javascript
  
 ## What I learned
-The project exposes me to Boostrap, CSS Frame work. This is the first project I built with HTML, CSS, Boostrap and Javascript. I learnt how to use Boostrap 5 and I understand better the principle of Javascript with this project.
+The project exposes me to Bootstrap, CSS Frame work. This is the first project I built with HTML, CSS, Boostrap and Javascript. I learnt how to use Boostrap 5 and I understand better the principle of Javascript with this project.
 
 
 ## Continued development
-I will love to do more project Using HTML, CSS, Boostrap 5 to improve my skills
+I will love to do more project Using HTML, CSS, Bootstrap 5 to improve my skills
+
+
+## Deployement
+I deploy the website on Github and host it on Netlify
 
